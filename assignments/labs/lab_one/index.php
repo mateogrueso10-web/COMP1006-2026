@@ -6,7 +6,7 @@ require_once "car.php";
 require_once "connect.php";
 
 // Create a new Car object
-$myCar = new Car("Toyota", "Corolla", 2022);
+$myCar = new Car("Honda", "Odyssey", 2022);
 
 
 // Display the car information in the browser
