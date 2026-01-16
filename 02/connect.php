@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-$host = "localhost"; 
-$db = "test_connection"; 
-$user = "root"; 
-$pass = ""; 
+$host = "localhost"; //hostname
+$db = "week_two"; //database name
+$user = "root"; //username
+$pass = "root"; //password
 
+//points to the database
 $dsn = "mysql:host=$host;dbname=$db";
 
 try {
